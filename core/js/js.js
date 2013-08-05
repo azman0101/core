@@ -682,6 +682,7 @@ $(document).ready(function(){
 			}
 		}else if(event.keyCode===27){//esc
 			OC.search.hide();
+			FileList.unfilter();
 		}else{
 			var query=$('#searchbox').val();
 			if(OC.search.lastQuery!==query){
@@ -689,9 +690,11 @@ $(document).ready(function(){
 				OC.search.currentResult=-1;
 				if(query.length>2){
 					OC.search(query);
+					FileList.filter(query);
 				}else{
 					if(OC.search.hide){
 						OC.search.hide();
+						FileList.unfilter();
 					}
 				}
 			}
