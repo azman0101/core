@@ -38,7 +38,7 @@ app_name=core
 
 
 # tests
-test: javascript-tests unit-tests integration-tests acceptance-tests
+#test: javascript-tests unit-tests integration-tests acceptance-tests
 
 unit-tests:
 	phpunit tests/
