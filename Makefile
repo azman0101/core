@@ -41,7 +41,7 @@ app_name=core
 #test: javascript-tests unit-tests integration-tests acceptance-tests
 
 unit-tests:
-	phpunit --bootstrap tests/bootstrap.php apps/files/tests/ajax_rename.php
+	phpunit -V --bootstrap tests/bootstrap.php apps/files/tests/ajax_rename.php
 
 
 #integration-tests:
