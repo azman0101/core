@@ -29,7 +29,7 @@ app_name=core
 
 
 #clean:
-	rm -rf $(build_directory)
+#	rm -rf $(build_directory)
 
 
 #dist: clean
