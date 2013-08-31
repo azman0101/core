@@ -3,8 +3,8 @@
 [ownCloud](http://ownCloud.org) gives you freedom and control over your own data.
 A personal cloud which runs on your own server.
 
-### Build Status on [Jenkins CI](https://ci.owncloud.org/)
-Git master: [![Build Status](https://ci.owncloud.org/buildStatus/icon?job=ownCloud-Server%28master%29)](https://ci.owncloud.org/job/ownCloud-Server%28master%29/)
+### Build Status on [Travis CI](https://travis-ci.org/azman0101/core)
+* **master:** [![Build Status](https://travis-ci.org/azman0101/core.png?branch=master)](https://travis-ci.org/azman0101/core)
 
 ### Installation instructions
 http://doc.owncloud.org/server/5.0/developer_manual/app/gettingstarted.html
