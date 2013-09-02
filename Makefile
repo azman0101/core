@@ -44,7 +44,8 @@ unit-tests:
 	phpunit --version --bootstrap tests/bootstrap.php apps/files/tests/ajax_rename.php
 
 ctags-gen:
-	ctags-exuberant -f php.tags --languages=PHP -R
+	ctags-exuberant --exclude=.git -f tags --languages=+PHP,-JavaScript -R
+
 #integration-tests:
 #	phpunit tests/integration
 
