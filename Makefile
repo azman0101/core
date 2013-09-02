@@ -43,7 +43,8 @@ app_name=core
 unit-tests:
 	phpunit --version --bootstrap tests/bootstrap.php apps/files/tests/ajax_rename.php
 
-
+ctags-gen:
+	ctags-exuberant -f php.tags --languages=PHP -R
 #integration-tests:
 #	phpunit tests/integration
 
