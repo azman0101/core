@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <info>
-	<id>files</id>
-	<name>Files</name>
-	<description>File Management</description>
+	<id>xfiles</id>
+	<name>XFiles</name>
+	<description>XFile Management</description>
 	<licence>AGPL</licence>
-	<author>Robin Appelman</author>
+	<author>Robin Appelman - Modify by Azman0101</author>
 	<require>4.93</require>
 	<shipped>true</shipped>
 	<standalone/>
