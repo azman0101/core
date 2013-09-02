@@ -4,7 +4,7 @@
 A personal cloud which runs on your own server.
 
 ### Build Status on [Jenkins CI](https://ci.owncloud.org/)
-Git master: [![Build Status](https://ci.owncloud.org/buildStatus/icon?job=ownCloud-Server%28master%29)](https://ci.owncloud.org/job/ownCloud-Server%28master%29/)
+* **files_well:** [![Build Status](https://travis-ci.org/azman0101/core.png?branch=files_well)](https://travis-ci.org/azman0101/core)
 
 ### Installation instructions
 http://doc.owncloud.org/server/5.0/developer_manual/app/gettingstarted.html
