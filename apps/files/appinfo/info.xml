@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <info>
-	<id>xfiles</id>
-	<name>XFiles</name>
-	<description>XFile Management</description>
+	<id>files</id>
+	<name>Files</name>
+	<description>File Management</description>
 	<licence>AGPL</licence>
 	<author>Robin Appelman - Modify by Azman0101</author>
 	<require>4.93</require>
